@@ -15,6 +15,9 @@ El dataset contiene información socioeconómica, académica y demográfica de e
 
 *Dataset (Predict Students' Dropout and Academic Success)*:
 
+- 4,424 registros
+- 37 columnas
+
 *Columnas objetivo*:
 
 - Target
@@ -22,3 +25,13 @@ El dataset contiene información socioeconómica, académica y demográfica de e
 ### Estructura del repositorio
 
 ### Cómo reproducir el entorno
+
+```bash
+git clone https://github.com/dark452/mcdi501-grupo1.git
+cd mcdi501-grupo1
+python -m venv .venv
+source .venv/bin/activate   # Windows: .venv\Scripts\activate
+pip install numpy pandas scikit-learn matplotlib seaborn jupyter
+pip freeze > requirements.txt
+jupyter notebook notebooks/F2.ipynb #Se puede ejecutar cualquier Fase
+```
