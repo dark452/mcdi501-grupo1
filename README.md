@@ -31,7 +31,6 @@ git clone https://github.com/dark452/mcdi501-grupo1.git
 cd mcdi501-grupo1
 python -m venv .venv
 source .venv/bin/activate   # Windows: .venv\Scripts\activate
-pip install numpy pandas scikit-learn matplotlib seaborn jupyter
-pip freeze > requirements.txt
-jupyter notebook notebooks/F2.ipynb #Se puede ejecutar cualquier Fase
+pip install -r requirements.txt
+jupyter notebook notebooks/F2.ipynb
 ```
