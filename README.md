@@ -18,19 +18,40 @@ El dataset contiene información socioeconómica, académica y demográfica de e
 - 4,424 registros
 - 37 columnas
 
-*Columnas objetivo*:
+*Columna objetivo*:
 
-- Target
+- `Target`: variable categórica con 3 clases
+  - **Graduate** (49.9%): el estudiante completó sus estudios
+  - **Dropout** (32.1%): el estudiante abandonó
+  - **Enrolled** (17.9%): el estudiante sigue matriculado al cierre del período
 
 ### Estructura del repositorio
+
+```bash
+mcdi501-grupo1/
+├── data/
+│   ├── raw/                        # Dataset original (CSV, separado por ';')
+│   └── processed/                  # datos generados por los notebook
+├── notebooks/
+│   └── F2.ipynb    
+├── src/
+├── docs/                        
+├── requirements.txt          # Librerias dependientes
+└── README.md
+```
 
 ### Cómo reproducir el entorno
 
 ```bash
+# Clonacion del repositorio
 git clone https://github.com/dark452/mcdi501-grupo1.git
 cd mcdi501-grupo1
+
+# Crecion del entorno virtual e instalacion de librerias
 python -m venv .venv
 source .venv/bin/activate   # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
+
+# Ejecucion del notebook
 jupyter notebook notebooks/F2.ipynb
 ```
