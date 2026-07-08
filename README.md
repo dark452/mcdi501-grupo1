@@ -4,10 +4,10 @@
 
 ### Integrantes
 
-- Pablo Ignacio Balbontin Constenla @pabbalbontin-maker
+- Pablo Ignacio Balbontín Constenla @pabbalbontin-maker
 - Melany Esmeralda Reyes Leiva @melanyreyesy
-- Ingeborg Andrea Munoz Carnot @dark452
-- Mario Alejandro Lopez Pulgar @malp2203
+- Ingeborg Andrea Muñoz Carnot @dark452
+- Mario Alejandro López Pulgar @malp2203
 
 ### Descripción de problemática
 
@@ -33,7 +33,8 @@ mcdi501-grupo1/
 │   ├── raw/                        # Dataset original (CSV, separado por ';')
 │   └── processed/                  # datos generados por los notebook
 ├── notebooks/
-│   └── F2.ipynb    
+│   ├── F2.ipynb 
+│   └── F3.ipynb    
 ├── src/
 ├── docs/                        
 ├── requirements.txt          # Librerias dependientes
@@ -53,5 +54,9 @@ source .venv/bin/activate   # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 
 # Ejecucion del notebook
-jupyter notebook notebooks/F2.ipynb
+jupyter notebook notebooks/F3.ipynb
 ```
+
+### Fase 3
+
+La Fase 3 del proyecto se encarga de realizar la validación computacional de los resultados obtenidos en la Sumativa 1 (Fase 2 - Análisis Exploratorio e Inferencial) mediante técnicas de simulación y remuestreo (bootstrap, permutación, Monte Carlo y jackknife).
