@@ -34,7 +34,8 @@ mcdi501-grupo1/
 │   └── processed/                  # datos generados por los notebook
 ├── notebooks/
 │   ├── F2.ipynb 
-│   └── F3.ipynb    
+│   ├── F3.ipynb   
+│   └── F4.ipynb  
 ├── src/
 ├── docs/                        
 ├── requirements.txt          # Librerias dependientes
