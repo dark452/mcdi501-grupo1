@@ -54,8 +54,8 @@ python -m venv .venv
 source .venv/bin/activate   # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 
-# Ejecucion del notebook
-jupyter notebook notebooks/F3.ipynb
+# Ejecucion del notebook de esta fase
+jupyter notebook notebooks/F4.ipynb
 ```
 
 ### Fase 3
@@ -66,3 +66,11 @@ La Fase 3 del proyecto se encarga de realizar la validación computacional de lo
 
 La Fase 4 corresponde a la presentación final del proyecto integrado (Sumativa 3). Integra los resultados de las tres fases anteriores en una narrativa coherente que muestra la progresión (S1, S2, S3), comunicando de manera clara los hallazgos del modelamiento predictivo, la interpretación de los modelos de regresión logística y las recomendaciones para la toma de decisiones.
 
+#### Funcionalidades del Notebook (`notebooks/F4.ipynb`)
+
+Este notebook contiene el flujo completo de analítica predictiva, limpieza avanzada de datos y modelado estadístico para el proyecto. Las principales funcionalidades implementadas se estructuran en las siguientes etapas:
+
+- Manejo inteligente de datos faltantes
+- Clasificación mediante regresio2n logística
+- Análisis comparativo del impacto de la imputación
+- Síntesis integrada
