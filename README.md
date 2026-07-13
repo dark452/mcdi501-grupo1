@@ -60,3 +60,8 @@ jupyter notebook notebooks/F3.ipynb
 ### Fase 3
 
 La Fase 3 del proyecto se encarga de realizar la validación computacional de los resultados obtenidos en la Sumativa 1 (Fase 2 - Análisis Exploratorio e Inferencial) mediante técnicas de simulación y remuestreo (bootstrap, permutación, Monte Carlo y jackknife).
+
+### Fase 4
+
+La Fase 4 corresponde a la presentación final del proyecto integrado (Sumativa 3). Integra los resultados de las tres fases anteriores en una narrativa coherente que muestra la progresión (S1, S2, S3), comunicando de manera clara los hallazgos del modelamiento predictivo, la interpretación de los modelos de regresión logística y las recomendaciones para la toma de decisiones.
+
